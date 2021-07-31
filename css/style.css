@@ -449,7 +449,6 @@ h5,
 
 .h3font {
     font-weight: 900;
-    padding-bottom: 15px;
 }
 
 .para1 {
@@ -727,7 +726,6 @@ h5,
 
 @media (max-width: 991.98px) {
     .site-navbar {
-        padding-top: 3rem;
         padding-bottom: 3rem;
     }
 }
@@ -782,7 +780,6 @@ h5,
     margin-left: 9px;
     margin-right: 9px;
     padding-top: 20px;
-    color: #000 !important;
     display: inline-block;
     text-decoration: none !important;
     border-bottom: 2px solid transparent;
@@ -933,7 +930,7 @@ h5,
     right: 0;
     z-index: 2000;
     padding-top: 20px;
-    background: #fff;
+    background: #012951;
     height: calc(100vh);
     -webkit-transform: translateX(110%);
     -ms-transform: translateX(110%);
@@ -1141,8 +1138,7 @@ h5,
 }
 
 .sticky-wrapper .site-navbar {
-    background: #fff;
-    padding-bottom: 0
+    background: white;
 }
 
 .sticky-wrapper .site-navbar .site-logo a {
@@ -1163,11 +1159,7 @@ h5,
     color: #dd6b4d;
 }
 
-.sticky-wrapper.is-sticky .site-navbar ul li a {
-    color: #000 !important;
-}
-
-.sticky-wrapper.is-sticky .site-navbar ul li a.active {
+.sticky-wrapper.is-sticky .site-navbar ul li a:active {
     color: #dd6b4d !important;
 }
 
@@ -1246,6 +1238,12 @@ h5,
 @media (max-width: 991.98px) {
     .site-section-cover h1 {
         font-size: 2rem;
+    }
+}
+
+@media (max-width: 691.98px) {
+    .site-logo {
+        display: none;
     }
 }
 
@@ -2080,9 +2078,13 @@ b {
     visibility: hidden;
 }
 
-tr td:first-child {
+tr:not(:last-child) td:first-child {
     border: none;
     border-left: 1px solid #dee2ed;
+}
+
+tr:last-child td:first-child {
+    border-top: none;
 }
 
 tr .td-type {
@@ -2095,4 +2097,42 @@ tr .td-type {
     background-color: #555;
     border-radius: 50%;
     display: inline-block;
+}
+
+.submenu:hover .menu {
+    display: block;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    background-color: #f9f9f9;
+    min-width: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+@media (max-width: 1000px) {
+    .menu {
+        left: 0%;
+        top: 100%;
+    }
+}
+
+.menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.menu a:hover {
+    background-color: #f1f1f1;
+}
+
+.nav-link {
+    color: white !important;
 }
