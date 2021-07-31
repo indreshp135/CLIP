@@ -12,21 +12,18 @@
     <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="images/emblem.png" type="image/x-icon" />
     <!--    font style  -->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <!--JS for animate-->
     <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" style="font-family: 'Josefin Sans', sans-serif; !important">
     <div class="site-wrap" id="home-section">
-
         <div class="site-mobile-menu site-navbar-target">
             <div class="site-mobile-menu-header">
                 <div class="site-mobile-menu-close mt-3">
@@ -35,41 +32,89 @@
             </div>
             <div class="site-mobile-menu-body"></div>
         </div>
-
         <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
             <div class="container">
-                <div class="row align-items-center position-relative">
+                <div style="color: black;text-align: center;">
+                    <h4>First International Conference on ComputationaL Intelligence Paradigms (CLIP)</h4>
                     <div class="site-logo">
                         <a href="https://www.nitt.edu/" style="float:left"><img src="images/emblem.png" alt="NITT" style="width:70px;height:70px;" /></a>
-                        <a href="#home-section" class="text-black head-tag go-top">
-                            <span class="text-primary">
-                CLIP
-              </span>
-                            <span class="tagl" style="white-space: pre-line">International Conference on 
-                Computational Intelligence Paradigms
-              </span></a>
+                        <a href="#home-section" class="text-black head-tag">
+                        </a>
                     </div>
+                    <h6>03<sup>rd</sup> - 05<sup>th</sup> August, 2022</h6>
+                </div>
+                <div class="row align-items-center position-relative">
                     <div class="col-12">
                         <nav class="site-navigation text-center " role="navigation">
                             <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block" style="    float: right;">
-                                <li><a href="./index.html" class="nav-link">Home</a></li>
-                                <li><a href="./submission.html" class="nav-link">Call for Papers</a></li>
-                                <li><a href="./registration.html" class="nav-link">Registration</a></li>
-                                <li><a href="./program.html" class="nav-link">Program</a></li>
-                                <li><a href="./committee.html" class="nav-link">Committee</a></li>
-                                <li><a href="./information.html" class="nav-link">Information</a></li>
-
+                                <li class="dropdown">
+                                    <a href="index.html" class="nav-link">Home</a>
+                                    <div class="dropdown-content">
+                                        <a href="index.html#conference_overview">Conference Overview</a>
+                                        <a href="index.html#about_nitt">About NIT-T</a>
+                                        <a href="index.html#important_dates">Important Dates</a>
+                                    </div>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="submission.html" class="nav-link">Call for Papers</a>
+                                    <div class="dropdown-content">
+                                        <a href="submission.html#topics">Topics</a>
+                                        <a href="submission.html#sp&p">Special Issues and Proceedings</a>
+                                        <a href="submission.html#submission">Submission</a>
+                                        <a href="submission.html#important_dates">Important Dates</a>
+                                    </div>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="registration.html" class="nav-link">Registration</a>
+                                    <div class="dropdown-content">
+                                        <a href="registration.html#fees">Registration Fees</a>
+                                        <a href="registration.html#details">Registration Deadline</a>
+                                        <a href="registration.html#payment">Payment Details</a>
+                                        <a href="registration.html#form">Registration Form</a>
+                                        <a href="registration.html#instructions">Important Instructions</a>
+                                    </div>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="program.html" class="nav-link">Program</a>
+                                    <div class="dropdown-content">
+                                        <a href="program.html#pgrm">Program</a>
+                                        <a href="program.html#schedule">Schedule</a>
+                                        <ol>
+                                            <li><a href="program.html#tut">Tutorial Session</a></li>
+                                            <li><a href="program.html#kn">Keynote cum Paper Presentation Session</a></li>
+                                        </ol>
+                                    </div>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="committee.html" class="nav-link">Committee</a>
+                                    <div class="dropdown-content">
+                                        <a href="committee.html#p&c">Patron & Co-Patron</a>
+                                        <a href="committee.html#chair">Chairperson</a>
+                                        <a href="committee.html#oc">Organizing Committee</a>
+                                        <a href="committee.html#ac">Advisory Committee</a>
+                                        <a href="committee.html#pc">Program Committee</a>
+                                        <a href="committee.html#tc">Technical Review Committee</a>
+                                    </div>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="information.html" class="nav-link">Information</a>
+                                    <div class="dropdown-content">
+                                        <a href="information.html#abtc">About the City</a>
+                                        <a href="information.html#ti">Travel Information</a>
+                                        <a href="information.html#nptv">Nearby places to visit</a>
+                                        <a href="information.html#ard">Accomodation Request Details</a>
+                                    </div>
+                                </li>
                             </ul>
                         </nav>
                     </div>
-                    <div class="toggle-button align-items-center d-flex">
-                        <a href="#" class="site-menu-toggle p-5 js-menu-toggle text-black d-inline-block d-lg-none d-flex"><span
+                </div>
+                <div class="toggle-button align-items-center d-flex">
+                    <a href="#" class="site-menu-toggle p-5 js-menu-toggle text-black d-inline-block d-lg-none d-flex"><span
                 class="icon-menu h3 m-0"></span></a>
-                    </div>
                 </div>
             </div>
         </header>
-
         <div class="owl-carousel slide-one-item">
             <div class="site-section-cover img-bg-section" style="background-image: url('images/clock-tower.JPG');    opacity: 0.9;height: 50px; width: 100%;">
             </div>
@@ -78,11 +123,11 @@
             <div class="site-section-cover img-bg-section" style="background-image: url('images/nit4.jpg');    opacity: 0.9;height: 50px; width:100%">
             </div>
         </div>
-
         <div class="site-section block__73694" id="about-section">
             <div class="container-fluid">
                 <div class="row d-flex no-gutters align-items-stretch">
                     <div class="col-lg-12 p-lg-5 mt-4 mt-lg-0" style="padding-top: 20px !important;">
+                        <span class="anchor" id="abtc"></span>
                         <h3 class="mb-3 text-black h3font">About the City</h3>
                         <p class="para-font text-justify">
                             Tiruchirappalli is the fourth most populous city of Tamil Nadu. It has an area of 11,075 square kilometres. It is situated in the centre of the state on the banks of the Kaveri River. It is bounded to the north by Namakkal District, to the northeast by
@@ -90,7 +135,8 @@
                             the northwest by Namakkal District. The city is a City corporation, the administrative headquarters of Tiruchirapalli District.
                         </p>
                         <br/>
-                        <h3 class="mb-3 text-black h3font">Travel Information(How To Reach)</h3>
+                        <span class="anchor" id="ti"></span>
+                        <h3 class="mb-3 text-black h3font">Travel Information (How To Reach)</h3>
                         <p class="para-font text-justify">Trichy is connected by road to Chennai (320 km) and to all major towns in South India by regular bus services. Tiruchirapalli is an important junction on the Southern Railway. It connects Chennai, Thanjavur, Madurai, Tuticorin,
                             Tirupati, Rameswaram, Bangalore, Coimbatore, Cochin and Mangalore. NIT-Trichy is located about 22 km from Tiruchurapalli Junction / Central Bus stand on the Trichy-Thanjavur Highway. The simplest and most economical way to
                             reach NIT-Trichy from these two places is by bus. Any city Bus at Tiruchirapalli Junction will take you to the central bus stand. Board Thanjavur bound mofussiful or route bus. The journey time from Trichy will be around 40
@@ -99,9 +145,10 @@
                             a taxi. Taxis may charge around Rs. 250/-.
                         </p>
                         <br/>
+                        <span class="anchor" id="nptv"></span>
                         <section id="teamPictures" class="hcenter">
                             <div id="allMembersContainer">
-                                <h3 class="mb-4 text-black ">Nearby places to visit</h3>
+                                <h3 class="mb-4 text-black h3font">Nearby places to visit</h3>
                                 <div class="member-container ">
                                     <div class="basic-details ">
                                         <img src="./images/gallery/kallanai.jpg " class="member-image ">
@@ -211,8 +258,9 @@
                         </section>
                         <br/>
                         <br/>
+                        <span class="anchor" id="ard"></span>
                         <h3 class="mb-3 text-black h3font">Accomodation Request Details</h3>
-                        <div class="text-center">
+                        <div class="para-font text-center">
                             Accommodation will be provided on requisition and first-cum-first-serve basis. Tariff details will be updated shortly.
                         </div>
                         <section id="teamPictures" class="hcenter">
@@ -244,15 +292,14 @@
                 </div>
             </div>
         </div>
-
         <div class="btn btn-primary"><a class="go-top" href="#home-section"><i class="fa fa-angle-up"
           aria-hidden="true"></i></a></div>
         <footer class="site-footer footer-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
-                        <h3 class="footer-heading1 mb-4">Contact</h3>
-                        Department of CSE <br /> NIT Trichy - 620015, Tamil Nadu, India<br/>Mail ID: <a href="mailto:clip2022.nitt@gmail.com">clip2022.nitt@gmail.com</a><br /> Contact No.:
+                        <h3 class="footer-heading1 mb-1">Contact</h3>
+                        Department of CSE <br /> National Institute of Technology,<br/> Tiruchirappalli - 620 015, <br/> Tamil Nadu, India.<br/>E-mail ID: <a href="mailto:clip2022.nitt@gmail.com">clip2022.nitt@gmail.com</a><br /> Contact No.:
                         <a href="tel:+919400364747">940 036 4747 </a>,<a href="tel:+917799566744"> 779 956 6744</a></p>
                     </div>
                     <div class="col-md-4 rightAlign">
@@ -261,7 +308,6 @@
             </div>
         </footer>
     </div>
-
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/jquery-ui.js"></script>
     <script src="js/popper.min.js"></script>

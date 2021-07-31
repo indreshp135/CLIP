@@ -12,21 +12,18 @@
     <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="images/emblem.png" type="image/x-icon" />
     <!--    font style  -->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <!--JS for animate-->
     <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" style="font-family: 'Josefin Sans', sans-serif; !important">
     <div class="site-wrap" id="home-section">
-
         <div class="site-mobile-menu site-navbar-target">
             <div class="site-mobile-menu-header">
                 <div class="site-mobile-menu-close mt-3">
@@ -35,61 +32,110 @@
             </div>
             <div class="site-mobile-menu-body"></div>
         </div>
-
         <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
             <div class="container">
-                <div class="row align-items-center position-relative">
+                <div style="color: black;text-align: center;">
+                    <h4>First International Conference on ComputationaL Intelligence Paradigms (CLIP)</h4>
                     <div class="site-logo">
                         <a href="https://www.nitt.edu/" style="float:left"><img src="images/emblem.png" alt="NITT" style="width:70px;height:70px;" /></a>
-                        <a href="#home-section" class="text-black head-tag go-top">
-                            <span class="text-primary">
-                CLIP
-              </span>
-                            <span class="tagl" style="white-space: pre-line">International Conference on 
-                Computational Intelligence Paradigms
-              </span></a>
+                        <a href="#home-section" class="text-black head-tag">
+                        </a>
                     </div>
+                    <h6>03<sup>rd</sup> - 05<sup>th</sup> August, 2022</h6>
+                </div>
+                <div class="row align-items-center position-relative">
                     <div class="col-12">
                         <nav class="site-navigation text-center " role="navigation">
                             <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block" style="    float: right;">
-                                <li><a href="./index.html" class="nav-link">Home</a></li>
-                                <li><a href="./submission.html" class="nav-link">Call for Papers</a></li>
-                                <li><a href="./registration.html" class="nav-link">Registration</a></li>
-                                <li><a href="./program.html" class="nav-link">Program</a></li>
-                                <li><a href="./committee.html" class="nav-link">Committee</a></li>
-                                <li><a href="./information.html" class="nav-link">Information</a></li>
-
+                                <li class="dropdown">
+                                    <a href="index.html" class="nav-link">Home</a>
+                                    <div class="dropdown-content">
+                                        <a href="index.html#conference_overview">Conference Overview</a>
+                                        <a href="index.html#about_nitt">About NIT-T</a>
+                                        <a href="index.html#important_dates">Important Dates</a>
+                                    </div>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="submission.html" class="nav-link">Call for Papers</a>
+                                    <div class="dropdown-content">
+                                        <a href="submission.html#topics">Topics</a>
+                                        <a href="submission.html#sp&p">Special Issues and Proceedings</a>
+                                        <a href="submission.html#submission">Submission</a>
+                                        <a href="submission.html#important_dates">Important Dates</a>
+                                    </div>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="registration.html" class="nav-link">Registration</a>
+                                    <div class="dropdown-content">
+                                        <a href="registration.html#fees">Registration Fees</a>
+                                        <a href="registration.html#details">Registration Deadline</a>
+                                        <a href="registration.html#payment">Payment Details</a>
+                                        <a href="registration.html#form">Registration Form</a>
+                                        <a href="registration.html#instructions">Important Instructions</a>
+                                    </div>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="program.html" class="nav-link">Program</a>
+                                    <div class="dropdown-content">
+                                        <a href="program.html#pgrm">Program</a>
+                                        <a href="program.html#schedule">Schedule</a>
+                                        <ol>
+                                            <li><a href="program.html#tut">Tutorial Session</a></li>
+                                            <li><a href="program.html#kn">Keynote cum Paper Presentation Session</a></li>
+                                        </ol>
+                                    </div>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="committee.html" class="nav-link">Committee</a>
+                                    <div class="dropdown-content">
+                                        <a href="committee.html#p&c">Patron & Co-Patron</a>
+                                        <a href="committee.html#chair">Chairperson</a>
+                                        <a href="committee.html#oc">Organizing Committee</a>
+                                        <a href="committee.html#ac">Advisory Committee</a>
+                                        <a href="committee.html#pc">Program Committee</a>
+                                        <a href="committee.html#tc">Technical Review Committee</a>
+                                    </div>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="information.html" class="nav-link">Information</a>
+                                    <div class="dropdown-content">
+                                        <a href="information.html#abtc">About the City</a>
+                                        <a href="information.html#ti">Travel Information</a>
+                                        <a href="information.html#nptv">Nearby places to visit</a>
+                                        <a href="information.html#ard">Accomodation Request Details</a>
+                                    </div>
+                                </li>
                             </ul>
                         </nav>
                     </div>
-                    <div class="toggle-button align-items-center d-flex">
-                        <a href="#" class="site-menu-toggle p-5 js-menu-toggle text-black d-inline-block d-lg-none d-flex"><span
+                </div>
+                <div class="toggle-button align-items-center d-flex">
+                    <a href="#" class="site-menu-toggle p-5 js-menu-toggle text-black d-inline-block d-lg-none d-flex"><span
                 class="icon-menu h3 m-0"></span></a>
-                    </div>
                 </div>
             </div>
         </header>
-
         <div class="owl-carousel slide-one-item">
-            <div class="site-section-cover img-bg-section" style="background-image: url('images/clock-tower.JPG');    opacity: 0.9;height: 50px; width: 100%;">
+            <div class="site-section-cover img-bg-section" style="background-image: url('images/clock-tower.JPG');    opacity: 0.9;height: 50px; width: 100%; bottom: 0%;">
             </div>
-            <div class="site-section-cover img-bg-section" style="background-image: url('images/cse.png');    opacity: 0.9;height: 50px; width:100%">
+            <div class="site-section-cover img-bg-section" style="background-image: url('images/cse.png');    opacity: 0.9;height: 50px; width:100%; bottom: 0%;">
             </div>
-            <div class="site-section-cover img-bg-section" style="background-image: url('images/nit4.jpg');    opacity: 0.9;height: 50px; width:100%">
+            <div class="site-section-cover img-bg-section" style="background-image: url('images/nit4.jpg');    opacity: 0.9;height: 50px; width:100%; bottom: 0%;">
             </div>
         </div>
-
         <div class="site-section block__73694" id="about-section">
             <div class="container-fluid">
                 <div class="row d-flex no-gutters align-items-stretch">
                     <div class="col-lg-12 p-lg-5 mt-4 mt-lg-0" style="padding-top: 20px !important;">
+                        <span class="anchor" id="conference_overview"></span>
                         <h3 class="mb-3 text-black h3font">Conference Overview</h3>
                         <p class="para-font text-justify">
                             The objective of this conference is to bring together the research personnel, like R & D / Industry personnel, faculty members, post doctoral fellows, research scholars and UG / PG students, from various organizations and to disseminate them the knowledge
                             of state-of-the-art trends in artificial intelligence and machine learning. The event covers all the important aspects of a sensitive conference namely tutorial sessions, keynote sessions and paper presentations. As such, the
-                            conference will act as an energetic forum for a healthy discussion. The conference is being planned to be organized annually and this is the first conference of the series.
+                            conference will act as an energetic forum for a healthy discussion. The conference is being planned to be organized biennially and this is the first conference of the series.
                         </p>
                         <br/>
+                        <span id="about_nitt" class="anchor"></span>
                         <h3 class="mb-3 text-black h3font">About NIT-T</h3>
                         <p class="para-font text-justify">National Institute of Technology (formerly known as Regional Engineering College) Tiruchirappalli, is one among the premier Institutions of India and is well known for its high standards in teaching and research. It offers 10 undergraduate
                             and 23 postgraduate programs in disciplines spanning Engineering, Science, Architecture and Management. It has been declared as an Institute of National Importance by the Government of India under NIT Act. According to the
@@ -102,6 +148,7 @@
                             To be Announced...
                         </div>
                         <br/>
+                        <span id="important_dates" class="anchor"></span>
                         <h3 class="mb-3 text-black h3font">Important Dates</h3>
                         <div class="text-center">
                             <div class="row text-center">
@@ -147,15 +194,14 @@
                 </div>
             </div>
         </div>
-
         <div class="btn btn-primary"><a class="go-top" href="#home-section"><i class="fa fa-angle-up"
           aria-hidden="true"></i></a></div>
         <footer class="site-footer footer-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
-                        <h3 class="footer-heading1 mb-4">Contact</h3>
-                        Department of CSE <br /> NIT Trichy - 620015, Tamil Nadu, India<br/>Mail ID: <a href="mailto:clip2022.nitt@gmail.com">clip2022.nitt@gmail.com</a><br /> Contact No.:
+                        <h3 class="footer-heading1 mb-1">Contact</h3>
+                        Department of CSE <br /> National Institute of Technology,<br/> Tiruchirappalli - 620 015, <br/> Tamil Nadu, India.<br/>E-mail ID: <a href="mailto:clip2022.nitt@gmail.com">clip2022.nitt@gmail.com</a><br /> Contact No.:
                         <a href="tel:+919400364747">940 036 4747 </a>,<a href="tel:+917799566744"> 779 956 6744</a></p>
                     </div>
                     <div class="col-md-4 rightAlign">
@@ -164,7 +210,6 @@
             </div>
         </footer>
     </div>
-
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/jquery-ui.js"></script>
     <script src="js/popper.min.js"></script>
