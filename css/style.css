@@ -1,5 +1,9 @@
 /* Base */
 
+html, body {
+    overflow-x: hidden;
+}
+
 .image {
     display: inline;
     border-radius: 5px;
@@ -1883,6 +1887,12 @@ h6 {
     margin: 20px;
     display: inline-block;
     font-size: 18px;
+}
+
+@media screen and (max-width: 500px) {
+    .dates{
+        margin: 0px;
+    }
 }
 
 .dates p {
