@@ -2160,3 +2160,28 @@ tr .td-type {
 .tab p {
     padding-left: 50px;
 }
+
+.facitem {
+    cursor: pointer;
+    font-size: 80%;
+    text-align: left;
+    width: 40%;
+    box-shadow: 0px 0px 55px -13px rgb(163 163 163 / 47%);
+    color: #000;
+    border-radius: 20px;
+    padding: 2%;
+    margin: 2%;
+    float: left;
+}
+
+.facitem img {
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50% !important;
+    padding: 0px;
+    margin: 20px;
+    margin-top: 0px;
+    float: left;
+    border: 2px solid rgba(200, 200, 200, 0.5);
+    box-shadow: 1px 1px 5px 1px rgb(200 200 200);
+}
