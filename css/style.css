@@ -2185,3 +2185,14 @@ tr .td-type {
     border: 2px solid rgba(200, 200, 200, 0.5);
     box-shadow: 1px 1px 5px 1px rgb(200 200 200);
 }
+
+.blink{
+    opacity: 0;
+    animation: blinking 2s ease infinite;
+}
+
+@keyframes blinking {
+    50%{
+        opacity: 1;
+    }
+}
