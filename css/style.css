@@ -2191,3 +2191,51 @@ tr .td-type {
         opacity: 1;
     }
 }
+
+.announcements {
+    background: #e2f0fe;
+    height: 3.5rem;
+}
+
+.announcements .title {
+    font-family: Poppins;
+    font-size: 1.56rem;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    background-color: #012951;
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+
+.announcements .triangle {
+    width: 0;
+    height: 0;
+    border-top: 1.75rem solid transparent;
+    border-bottom: 1.75rem solid transparent;
+    border-left: 1.75rem solid #012951;
+}
+
+.announcements .marquee .link {
+    margin: auto 15px;
+    color: black;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-decoration: none;
+}
+
+.announcements .links {
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
